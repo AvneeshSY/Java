@@ -1,5 +1,4 @@
 // Write a Java program to print the following grid.
-package Array;
 
 public class prog6 {
     public static void main(String[] args) {
