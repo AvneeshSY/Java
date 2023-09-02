@@ -1,6 +1,7 @@
 // package Sort;
 
 public class Merge {
+    // conquer the arraay
     public static void conquer(int arr[], int si, int mid, int ei) {
         int merge[] = new int[ei - si + 1];
         int idx1 = si;
@@ -37,10 +38,11 @@ public class Merge {
         if (si >= ei) {
             return;
         }
-
+        // Dividing the array
         int mid = si + (ei - si) / 2;
         divide(arr, si, mid);
         divide(arr, mid + 1, ei);
+        // conquer
         conquer(arr, si, mid, ei);
     }
 
