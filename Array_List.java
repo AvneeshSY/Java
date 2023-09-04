@@ -32,6 +32,7 @@ public class Array_List {
         // sort
         Collections.sort(car);
         System.out.println(car);
+        System.out.println(car);
 
     }
 }
